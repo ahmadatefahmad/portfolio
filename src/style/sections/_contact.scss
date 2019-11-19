@@ -10,7 +10,29 @@
   margin-top: -10rem;
   margin-bottom: -1px;
   color: $white-color;
+  
+  #email-form{
+    margin: 10px;
+    padding: 10px;
+  }
+  #sendBtn{
+    margin: 5px;
+    font-size: medium;
+    color: #026669;
+  }
+  
+  .input{
+    width: 300px;
+    margin:5px;
+    height: 30px;
+    padding: 5px;
+    font-size: medium;
+    
+  }
 
+  .hide{
+    display: none;
+  }
   @include respond(tab-land) {
     padding: 10rem 0;
     clip-path: none;

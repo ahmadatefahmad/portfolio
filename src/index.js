@@ -17,5 +17,12 @@ $('a[href^="#"]').on('click', function(event) {
   }
 });
 
+const sendEmail =document.getElementById("send-email");
+sendEmail.addEventListener("click",function(event){
+   var form = event.target.nextElementSibling.querySelector("form");
+   form.classList.toggle("hide");
+   console.log(form);
+});
+
 initSr();
 initTilt();
